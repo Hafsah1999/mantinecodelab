@@ -1,0 +1,118 @@
+.heroSection {
+  padding: 80px 0;
+  background-color: #f0f1f3; /* Light background color for the hero section */
+  text-align: center;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #6ba3f7; /* Dark color for text */
+  text-align: center;
+  margin: 20px 0;
+}
+
+.description {
+  margin: 20px 0;
+    color: #8c8f92; /* Medium dark color for description text */
+}
+
+.button {
+  margin: 10px;
+}
+
+.image {
+  margin-top: 30px;
+  max-width: 100%;
+  height: auto;
+}
+
+.heroSection {
+    padding: 80px 0;
+    background-color: #1a1a1a; /* Dark background color for section */
+    color: #fff; /* White text color */
+    text-align: center;
+  }
+  
+  .featuresSection {
+    padding: 60px 0;
+    background-color: #333; /* Darker background for features section */
+    color: #fff; /* White text color */
+    text-align: center;
+  }
+  
+  .featuresTitle {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .featureCard {
+    background: #444;
+    color: #fff;
+  }
+  
+  .featureTitle {
+    margin-bottom: 10px;
+  }
+  
+  .featureText {
+    font-size: 1rem;
+  }
+  
+  .button {
+    margin: 10px;
+  }
+  
+  .wrapper {
+    padding-top: rem(80px);
+    padding-bottom: rem(50px);
+  }
+  
+  .item {
+    display: flex;
+  }
+  
+  .itemIcon {
+    padding: var(--mantine-spacing-xs);
+    margin-right: var(--mantine-spacing-md);
+  }
+  
+  .itemTitle {
+    margin-bottom: calc(var(--mantine-spacing-xs) / 2);
+  }
+  
+  .supTitle {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: var(--mantine-font-size-sm);
+    color: var(--mantine-color-blue-light-color);
+    letter-spacing: rem(0.5px);
+  }
+  
+  .title {
+    line-height: 1;
+    text-align: center;
+    margin-top: var(--mantine-spacing-xl);
+  }
+  
+  .description {
+    text-align: center;
+    margin-top: var(--mantine-spacing-xs);
+  }
+  
+  .highlight {
+    background-color: var(--mantine-color-blue-light);
+    padding: rem(5px);
+    padding-top: 0;
+    border-radius: var(--mantine-radius-sm);
+    display: inline-block;
+    color: light-dark(inherit, var(--mantine-color-white));
+  }
+  
